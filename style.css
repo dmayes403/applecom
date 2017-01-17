@@ -79,3 +79,107 @@ ul {
   display: block;
   margin: auto;
 }
+
+.heading {
+  text-align: center;
+  line-height: 18px;
+  width: 60%;
+  margin: auto;
+  padding: 50px;
+  padding-bottom: 0px;
+}
+
+.heading h3 {
+  font-size: 28px;
+}
+
+.heading h1 {
+  font-size: 52px;
+}
+
+.macbook-pro-heading-img {
+  position: relative;
+  background: url('http://images.apple.com/v/mac/home/u/images/home/macbookpro_medium_2x.png');
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+
+.link-to-buy {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.link-to-buy a {
+  text-decoration: none;
+  color: black;
+}
+
+.macbook-learn {
+  display: inline-block;
+  margin: 0px 20px 0px 20px;
+}
+
+.macbook-heading-img {
+  position: relative;
+  background: url('http://images.apple.com/v/mac/home/u/images/home/macbook_medium_2x.png') no-repeat;
+  height: 400px;
+  width: 80%;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+
+.imac-heading-img {
+  position: relative;
+  background: url('http://images.apple.com/v/mac/home/u/images/home/imac_large.png') no-repeat;
+  height: 400px;
+  width: 80%;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+
+.imac-heading h3 {
+  font-size: 24px;
+}
+
+.imac-heading h1 {
+  font-size: 36px;
+}
+
+.imac-heading {
+  text-align: center;
+  line-height: 18px;
+  width: 70%;
+  margin: auto;
+  padding: 50px;
+  padding-bottom: 0px;
+}
+
+.compare-heading-img {
+  position: relative;
+  background: url('http://images.apple.com/v/mac/home/u/images/home/compare_large.png') no-repeat;
+  height: 400px;
+  width: 60%;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+
+.shipping {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+  border-top: 1px solid black;
+}
+
+.receive {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 15px;
+  width: 300px;
+}
