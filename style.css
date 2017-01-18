@@ -190,6 +190,36 @@ ul {
   height: 400px;
   width: 100%;
   margin: auto;
+  margin-bottom: 100px;
   background-size: cover;
   background-position: center;
+}
+
+.sierra img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.sierra {
+  position: relative;
+  padding: 90px 60px 30px 60px;
+}
+
+.sierras {
+  vertical-align: top;
+  width: 250px;
+  display: inline-block;
+}
+
+/*.sierras h3 {
+  text-align: center;
+}*/
+
+.sierras-wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  font-size: 20px;
 }
