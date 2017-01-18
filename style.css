@@ -183,3 +183,13 @@ ul {
   margin: 15px;
   width: 300px;
 }
+
+.accessories-heading-img {
+  position: relative;
+  background: url('http://images.apple.com/v/mac/home/u/images/home/accessories_medium_2x.png') no-repeat;
+  height: 400px;
+  width: 100%;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+}
