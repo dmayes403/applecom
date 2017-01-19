@@ -9,6 +9,7 @@ body {
 
 a {
   color: #0070C9;
+  text-decoration: none;
 }
 
 .nav {
@@ -239,6 +240,7 @@ ul {
   display: block;
   margin: auto;
   border-bottom: 1px solid grey;
+  padding-bottom: 10px;
 }
 
 .built-in-icons {
@@ -259,4 +261,32 @@ ul {
 
 .built-in-list {
   margin-top: 25px;
+}
+
+.built-in-description-container{
+  padding: 70px 50px 70px 50px;
+}
+
+.built-in-description {
+  display: inline-block;
+}
+
+.built-in-description-description{
+  width: 30%;
+  padding-left: 50px;
+  vertical-align: bottom;
+  transform: translateY(-125px);
+}
+
+.built-in-decscription-img {
+  width: 60%;
+}
+
+.built-in-decscription-img img{
+  width: 100%;
+}
+
+.built-in-img {
+  padding-left: 0;
+  transform: translateX(-40px);
 }
