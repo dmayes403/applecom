@@ -4,6 +4,11 @@
 
 body {
   margin: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+a {
+  color: #0070C9;
 }
 
 .nav {
@@ -113,7 +118,7 @@ ul {
 
 .link-to-buy a {
   text-decoration: none;
-  color: black;
+  /*color: black;*/
 }
 
 .macbook-learn {
@@ -173,7 +178,7 @@ ul {
   text-align: center;
   margin: auto;
   padding-top: 30px;
-  border-top: 1px solid black;
+  border-top: 1px solid grey;
 }
 
 .receive {
@@ -182,6 +187,10 @@ ul {
   text-align: center;
   margin: 15px;
   width: 300px;
+}
+
+.receive a {
+  text-decoration: none;
 }
 
 .accessories-heading-img {
@@ -212,9 +221,9 @@ ul {
   display: inline-block;
 }
 
-/*.sierras h3 {
-  text-align: center;
-}*/
+.sierras a {
+  text-decoration: none;
+}
 
 .sierras-wrapper {
   width: 50%;
@@ -222,4 +231,32 @@ ul {
   justify-content: space-between;
   margin: auto;
   font-size: 20px;
+}
+
+.built-in-heading {
+  width: 50%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  border-bottom: 1px solid grey;
+}
+
+.built-in-icons {
+  list-style: none;
+  display: inline-block;
+}
+
+.built-in-icons img {
+  width: 75px;
+  margin: 0;
+  padding: 0;
+}
+
+.built-in-icons h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.built-in-list {
+  margin-top: 25px;
 }
